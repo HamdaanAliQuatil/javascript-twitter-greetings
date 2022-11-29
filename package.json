@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A Twitter Bot to greet visitors with a unique greeting everyday!",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js",
-    "build": "webpack --mode production",
+    "dev": "node src/index.js",
+    "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
